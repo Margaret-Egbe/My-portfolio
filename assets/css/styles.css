@@ -264,7 +264,7 @@ color: var(--first-color-light);
 
 
 .home__img {
-    width: 220px;
+    width: 320px;
     justify-self: center;
     mask-image: linear-gradient(to bottom, hsla(var(--hue), 40%, 16%) 60%, transparent 100%);
   }
@@ -438,8 +438,8 @@ color: var(--first-color-light);
 }
 
 .about__img {
-  width: 250px;
-  justify-self: center;
+  width: 300px;
+  justify-self: start;
   mask-image: linear-gradient(to bottom,
              hsla(var(--hue), 40%, 16%) 60%, transparent 100%);
 }
@@ -708,6 +708,8 @@ color: var(--first-color-light);
     grid-template-columns: repeat(2, max-content);
   }
 
+  
+
 }
 
 /* For medium devices */
@@ -827,7 +829,7 @@ color: var(--first-color-light);
   }
 
   .home__img {
-    width: 350px;
+    width: 450px;
   }
 
   .home__profession::after {
@@ -868,7 +870,7 @@ color: var(--first-color-light);
   }
 
   .about__img {
-    width: 320px;
+    width: 350px;
   }
 
   .about__description {
