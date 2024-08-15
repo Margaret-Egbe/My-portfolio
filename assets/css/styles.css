@@ -547,6 +547,7 @@ color: var(--first-color-light);
   font-size: 1.3rem;
   list-style-type: none;
   margin-bottom: 2rem;
+  color: white;
 }
 
 .contact__section ul li::before {
